@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .field{
+    height: 500px;
+    border: 1px solid;
+}
+.
+.bat{
+    /* : 5s ease ; */
+}
+.field:hover .bat{
+    transform: rotate(-60deg);
+    /* anti clock wise ghurtese */
+    transform-origin : top right ;
+    /* ei origin dewate ekhon centre theke norbe na upor theke norbe */
+    transition: transform 0.5s ease-in
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 25px;
+    position: relative;
+    left: 515px;
+    
+    
+}
+.field:hover .ball{
+    transform: translate(600px ,-500px);
+    transition:transform 1s ease-out 0.5s  ;
+}
+
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img class="bat" src="bat.png".images/ alt="">
+        <div class="ball">
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
